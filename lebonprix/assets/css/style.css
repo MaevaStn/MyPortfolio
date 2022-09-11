@@ -1,0 +1,116 @@
+/*[class*="col"] {
+    border: solid 1px black;
+}*/
+
+body {
+    font-size: 30px;
+    font-family: 'Roboto', sans-serif;
+    background-color: #EEEEEE;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/*img.logo {
+    width: 150px;
+    height: 150px;
+}*/
+
+.logo {
+   color: black;
+   font-size: 25px;
+   margin-top: 20px;
+   margin-bottom: 100px;
+   display: flex;
+   text-decoration: none;
+   justify-content: space-between;
+}
+
+.logo:hover {
+    color: black;
+}
+
+.logo-title{
+ padding-left: 10px;
+ font-size: 25px;
+}
+
+img {
+    height: 300px;
+    object-fit: contain;
+}
+
+#images {
+    max-height: 250px;
+}
+
+#repUser {
+    border-color: black;
+    display: none;
+   
+}
+
+#reponse {
+    font-size: 22px;
+    text-align: center;
+}
+
+#essaie {
+    font-size: 20px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+#justePrix {
+    font-size: 20px;
+    text-align: center;
+}
+
+#devPrix {
+    width: 90px;
+    display: none;
+}
+
+#msgErreur {
+    color: red;
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.card {
+    border-radius: 20px;
+    cursor: pointer;
+    height: 500px;
+}
+
+.card:hover {
+     height: 510px;
+     box-shadow:2px 2px 3px  lightslategray;
+}
+
+h5{
+    display: none;
+}
+
+#next {
+    display: none;
+    width: 90px;
+    margin-right: 4px;
+}
+
+#btn {
+    width: 200px;
+    font-size: 20px;
+    margin-top: 80px;
+}
+
+#btnAgain {
+    display: none;
+    width: 190px;
+    height: 40px;
+    font-size: 15px;
+}
+
+

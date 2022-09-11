@@ -1,0 +1,521 @@
+/* Style page web */
+body {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: auto;
+    font-family: 'Roboto';
+    font-size: 16px;
+}
+
+section {
+    width: 100%;
+    margin: auto;
+}
+
+header {
+    width: 96%;
+    margin: auto;
+}
+
+main {
+    width: 96%;
+    margin: auto;
+}
+
+
+/* Style bloc entête */
+header a {
+    color: black;
+}
+
+.titre-menu {
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+header img {
+    width: 100px;
+    height: auto;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+}
+
+nav {
+    display: flex;
+    height: 100px;
+    align-items: center;
+    justify-content: center;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+li {
+    display: flex;
+    list-style-type: none;
+    text-decoration: none;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+
+li a {
+    text-decoration: none;
+}
+
+header a:hover {
+    color: #126AF8;
+}
+
+header li:hover {
+    border-top: solid #126AF8 3px;
+}
+
+
+/* Style barre de recherche */
+
+.recherche {
+    display: flex;
+}
+
+.searchForm {
+    display: inline-flex;
+    max-width: 100%;
+    overflow: auto;
+}
+
+.searchFormWrapicon {
+    background-color: #F2F2F2;
+    padding: 1rem 1.25rem;
+    border-radius: 1rem 0 0 1rem;
+    text-align: center;
+    height: 20px;
+}
+
+.searchFormWrapicon i {
+    color: black;
+}
+
+.searchFormWrapiconIcon {
+    margin-left: 0.1rem;
+}
+
+
+.searchFormSearchinput {
+    border-right: none;
+    border-left: none;
+    border-top: #F2F2F2 1px solid;
+    border-bottom: #F2F2F2 1px solid;
+    padding: 0 1.5rem;
+    box-sizing: border-box;
+    width: 14rem;
+    height: 52px;
+    font-size: 1rem;
+    font-weight: bold;
+    font-family: "Roboto", "Sans serif";
+}
+
+.searchFormSearchinput::placeholder {
+    font-family: "Roboto", "Sans serif";
+    font-size: 1rem;
+    text-align: center;
+    color: #00000069;
+}
+
+.searchFormSubmitinput {
+    background-color: #126AF8;
+    color: white;
+    font-weight: bold;
+    height: 52px;
+    border: none;
+    border-radius: 0 1rem 1rem 0;
+    padding: 0 1.5rem;
+    font-family: "Roboto", "Sans serif";
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+
+/* Style rubrique filtres */
+
+i {
+    color: #126AF8
+}
+
+#filtre {
+    display: flex;
+    align-items: center;
+    height: 120px;
+    justify-content: flex-start;
+}
+
+#filtre h2 {
+    margin-right: 30px;
+}
+
+.filtres {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.filtre-box {
+    display: flex;
+    flex-direction: row;
+    border-radius: 15px;
+    border: solid rgb(192, 190, 190);
+    align-items: center;
+    justify-content: center;
+    padding: 3px;
+}
+
+.filtre-box i {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    font-size: 20px;
+    border-radius: 40px;
+    border: solid rgb(192, 190, 190) 1px;
+    background-color: white;
+    box-shadow: 0 0 1em rgb(107, 105, 105);
+}
+
+span.text {
+    padding: 10px;
+}
+
+.text a {
+    text-decoration: none;
+}
+
+.text a:hover {
+    color: white;
+}
+
+span.filtre-box {
+    margin-right: 20px;
+    color: rgb(146, 3, 146);
+}
+
+span.filtre-box:hover {
+    color: white;
+    background-color: #126AF8;
+    border: solid #126AF8 1px;
+}
+
+.filtre-box a:hover {
+    color: white;
+}
+
+/* Style information */
+
+.information {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 50px; 
+}
+
+.information i {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20px;
+    height: 20px;
+    margin-right: 12px;
+    border-radius: 40px;
+    border: solid rgb(194, 192, 192) 1px;
+}
+
+
+/* Style du Main */
+h1 {
+    font-size: 20px;
+}
+
+h2 {
+    font-size: 16px;
+}
+
+
+/* Style de la section activité */
+
+#activites {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin: auto;
+    height: auto;
+}
+
+.activite {
+    display: flex;
+    flex-direction: row;
+    border-radius: 30px;
+    width: 22%;
+    height: 400px;
+    margin-bottom: 30px;
+}
+
+.carte:hover {
+    box-shadow: 0px 0px 5px 2px #dfdede;
+    transform: scale(1.05);
+}
+
+.activite a {
+    text-align: center;
+    border: solid rgb(235, 235, 235) 1px;
+    border-radius: 30px;
+}
+
+.double-activite a {
+    text-align: center;
+    border: solid rgb(235, 235, 235) 1px;
+    border-radius: 30px;
+    text-decoration: none;
+    color: black;
+}
+
+.double-activite {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 30px;
+    width: 22%;
+    height: 400px;
+    margin-bottom: 30px;
+}
+
+.activite a {
+    text-decoration: none;
+    color: black;
+}
+
+.lieu-img1 {
+    border-radius: 30px 30px 0 0;
+    width: 100%;
+    height: 340px;
+    object-fit: cover;
+}
+
+.lieu-img2 {
+    border-radius: 30px 30px 0 0;
+    width: 100%;
+    height: 160px;
+    object-fit: cover;
+}
+
+.lieu-img3 {
+    border-radius: 30px 30px 0 0;
+    width: 100%;
+    height: 100px;
+    object-fit: cover;
+}
+
+.lieu-img4 {
+    border-radius: 30px 30px 0 0;
+    width: 100%;
+    height: 340px;
+    object-fit: cover;
+}
+
+.lieu-img5 {
+    border-radius: 30px 30px 0 0;
+    width: 100%;
+    height: 125px;
+    object-fit: cover;
+}
+
+.lieu-img6 {
+    border-radius: 30px 30px 0 0;
+    width: 100%;
+    height: 125px;
+    object-fit: cover;
+}
+
+
+/* Style footer */
+footer {
+    background-color: #e6e6e6;
+}
+
+footer a {
+    text-decoration: none;
+    color: black;
+}
+
+.ensemble {
+    margin: 40px;
+    display: flex;
+    justify-content: flex-start;
+
+}
+
+.propos {
+    width: 30%;
+}
+
+.hebergement {
+    width: 30%;
+}
+
+.assistance {
+    width: 30%;
+}
+
+
+/* Media Query Mobile
+-------------------------
+-------------------------
+  Media Query Mobile */
+@media screen and (max-device-width: 579px) {
+    header {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    header li:hover {
+        border-top: none;
+        border-bottom: solid #126AF8 2px;
+    }
+
+    ul {
+        padding: 0;
+    }
+
+    .titre-menu {
+        text-align: center;
+    }
+
+    body {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+
+    .recherche {
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        margin: 20px;
+    }
+
+    .searchFormSubmitinputText {
+        display: none;
+    }
+
+    .searchFormSubmitinputIcon {
+        display: inline;
+        color: white;
+    }
+
+    button.searchFormSubmitinput {
+        border-top-left-radius: 15px;
+        border-bottom-left-radius: 15px;
+    }
+
+    .filtre-box {
+        margin-bottom: 5px;
+    }
+
+    .information {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        margin: 10px;
+        margin-top: 90px;
+    }
+
+    .information i {
+        display: none;
+    }
+
+    #filtre {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .filtres {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 10px;
+        justify-content: center;
+    }
+
+    .filtre-box {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    section {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    #activites {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .activite {
+        height: auto;
+    }
+
+    .double-activite {
+        height: auto;
+    }
+
+    .activite,
+    .double-activite {
+        width: 100%;
+        flex-direction: column;
+        margin-bottom: 0;
+    }
+
+
+    .ensemble {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .carte:hover {
+        display: none;
+    }
+
+    .carte {
+        box-shadow: 0px 0px 5px 2px #dfdede;
+
+    }
+
+    .lieu-img {
+        height: 200px;
+    }
+
+    #activites a {
+        margin-bottom: 30px;
+    }
+}
